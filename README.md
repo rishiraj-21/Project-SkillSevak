@@ -222,28 +222,13 @@ neuralnetwork/
 
 ---
 
-## Environment Variables
-
-| Variable | Description |
-|----------|-------------|
-| `SECRET_KEY` | Django secret key |
-| `DEBUG` | `True` for development |
-| `USE_SQLITE` | `True` to use SQLite instead of PostgreSQL |
-| `USE_ANN_MODEL` | `True` to use trained ANN, `False` for weighted average fallback |
-| `USE_ASYNC_PROCESSING` | `True` to enable Celery background tasks |
-| `REDIS_URL` | Redis connection URL |
-| `GOOGLE_CLIENT_ID` | Google OAuth client ID |
-| `GOOGLE_CLIENT_SECRET` | Google OAuth client secret |
-
-See `.env.example` for full reference.
 
 ---
 
-## Hackathon Context
+## Hackathon 
 
 Built for **N26_14** — a fully functional AI hiring platform with a custom-trained neural network, end-to-end resume understanding, and dual-role UX (candidate + recruiter), developed from scratch.
 
-No wrapped GPT APIs. No pre-built matching libraries. Every model layer, feature extractor, and training loop written by hand.
 
 ---
 
